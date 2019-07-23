@@ -1,0 +1,33 @@
+header, section, article, nav, aside, figure, img, form{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    /** Colors **/
+
+
+}
+
+*{
+    box-sizing: border-box;
+}
+p, h1, h2, h3, h4{
+    /** Color **/
+    font-size: 14px;
+    margin: 6px;
+}
+h1{ font-size: 24px; }
+h2{ font-size: 20px; }
+h3{ font-size: 18px; }
+h4{ font-size: 16px; }
+a{
+    text-decoration: none;
+    /** Colors **/
+    font-size: 14px;
+}
+ul, ol{
+    /** Colors **/
+    font-size: 14px;
+}
