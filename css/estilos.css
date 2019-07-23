@@ -31,3 +31,14 @@ ul, ol{
     /** Colors **/
     font-size: 14px;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto; 
+}
