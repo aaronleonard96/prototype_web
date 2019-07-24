@@ -7,28 +7,22 @@ html{
     font-family: 'Roboto', sans-serif;
     /** Colors **/
 
-
 }
 
 *{
     box-sizing: border-box;
 }
-p, h1, h2, h3, h4{
-    /** Color **/
-    font-size: 14px;
-    margin: 6px;
-}
+
 h1{ font-size: 24px; }
 h2{ font-size: 20px; }
 h3{ font-size: 18px; }
 h4{ font-size: 16px; }
+
 a{
     text-decoration: none;
-    /** Colors **/
     font-size: 14px;
 }
 ul, ol{
-    /** Colors **/
     font-size: 14px;
 }
 
@@ -41,4 +35,71 @@ body {
     width: 90%;
     max-width: 1280px;
     margin: auto; 
+}
+/* ********* HEADER ********** */
+
+.menu {
+    background: #fff;
+    padding: 9px 20px;
+}
+
+.menu .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+header .logo {
+    color: #000;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.menu .container p span {
+    color: #000;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+nav ul li {
+ display: inline-block; 
+ margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-bottom: 5px;
+
+}
+
+nav ul li a:before {
+    content: '';
+    width: 90px;
+    position: absolute;
+    border-bottom: 2.5px solid rgb(29, 29, 29);
+    bottom: 0;
+    right: 350px;
+    transition: 0.7s all;
+    
+}
+
+nav ul li a:hover:before {
+    right: 0;
+}
+
+/* *******  MAIN ******* */
+
+/* MENU */
+
+#init {
+    height: 600px;
+}
+
+#logo img{
+    height: 400px;
+    width: auto;
 }
